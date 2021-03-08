@@ -1,0 +1,164 @@
+
+@font-face {
+font-family: 'Larsseit Thin';
+src: url('../fonts/Larsseit-Thin.woff2') format('woff2'),
+    url('../fonts/Larsseit-Thin.woff') format('woff');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mostin Regular';
+    src: url('../fonts/Mostin-Regular.woff2') format('woff2'),
+        url('../fonts/Mostin-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    }
+
+h1,h2,h3{
+    font-family: 'Mostin Regular';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+}
+p{
+    font-family: 'Larsseit Thin',sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+body {
+overflow: hidden;
+overflow-y: auto;
+max-width: 2400px;
+}
+
+
+.fixed-me {
+background: #fff;
+}
+
+.logo.here{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo-main{
+    text-align: end;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.logo-main img {
+    width: 8%;
+}
+.text-banner{
+    background: #c4e8f2;
+    height: 100vh;
+}
+
+.box-text {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-flex{
+    display: flex;
+}
+
+.logo-two img{
+    width: 30%;
+}
+.main-img {
+    padding: 24px 20px;
+    position: relative;
+}
+.main-img img {
+    height: 94vh;
+}
+
+.circle img{
+    height: 235px;
+}
+
+.line-color {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.circle{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo-two {
+    margin-bottom: 5%;
+}
+
+.box-text h3{
+    margin-top: 5%;
+}
+
+.main_menu > li > .sub_menu {
+top: 100%;
+left: 10%;
+right: 15%;
+position: absolute;
+}
+
+.sub_menu li:hover > .sub_menu {
+visibility: visible;
+opacity: 1;
+} 
+
+.sub_menu li { 
+transition: all 0.3s;
+transition: .5s;
+}
+
+.sub_menu li, .sub_menu a {
+padding: 10px;
+font-family: 'Helvetica Neue';
+font-size: 15px;
+color: #fff!important;
+}
+
+.sub_menu a:hover {
+color: #222;
+text-decoration: none;
+}
+
+.logo.here a img{
+margin-top: 18px;
+}
+.header__main {
+display: flex;
+padding: 3rem;
+align-items: center;
+height: 100px;
+position: fixed;
+z-index: 9999;
+width: 100%;
+transition: .5s;
+justify-content: space-between;
+
+}
+
+
+*:focus {
+outline: none !important;
+}
+
+
+.main-banner {
+position: relative;
+overflow: hidden;
+
+}

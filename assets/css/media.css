@@ -1,0 +1,91 @@
+ @media (min-width: 0px) and (max-width: 767px) {
+    .main-img{
+        padding: 0;
+    }
+
+    .main-flex{
+        display: block;
+    }
+
+    .logo-main img {
+        margin-top: 1%;
+        width: 20%;
+    }
+    .logo-main {
+        text-align: center;
+        margin-right: 0;
+      }
+
+      .logo-two {
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    .logo-two img {
+        width: 55%;
+    }
+
+    .box-text{
+        padding-top: 0;
+    }
+
+    p {
+        font-family: 'Larsseit Thin',sans-serif;
+        font-size: 20px;
+         }
+
+    .text-banner {
+        height: 80vh;
+    }
+
+    .box-text h3 {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .circle img {
+        height: 185px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-img img {
+        height: 50vh;
+        /* width: 100%; */
+        object-fit: contain;
+    }
+
+    .main-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle{
+           display: none;
+    }
+    .line-color {
+
+        width: 100%;
+    }
+
+    .line-color img {
+
+        width: 100%;
+    }
+
+    .logo-two img {
+        width: 60%;
+    }
+
+    .logo-main img {
+        width: 23%;
+    }
+  
+
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+}
