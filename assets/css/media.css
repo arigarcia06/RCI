@@ -51,7 +51,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .main-img img {
-        height: 50vh;
+        height: 80vh;
         /* width: 100%; */
         object-fit: contain;
     }
@@ -61,28 +61,30 @@
         justify-content: center;
         align-items: center;
     }
-
-    .circle{
-           display: none;
-    }
-    .line-color {
-
-        width: 100%;
-    }
-
+ 
     .line-color img {
 
-        width: 100%;
+        width: 75%;
     }
 
     .logo-two img {
-        width: 60%;
+        width: 35%;
     }
 
     .logo-main img {
-        width: 23%;
+        width: 10%;
     }
-  
+
+    h3 {
+        font-family: 'Mostin Regular';
+        font-weight: 600;
+        font-style: normal;
+        font-size: 30px;
+    }
+
+    .circle img {
+        height: 235px!important;
+    }
 
 }
 
